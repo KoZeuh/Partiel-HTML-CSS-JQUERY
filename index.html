@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sliders</title>
+
+        <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.2.0/css/pro.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/slider.css">
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Sliders, les mondes parallèles ;-)</h1>
+            <a href="#" class="toolbar-toggle"><i class="fas fa-arrow-down"></i> Barre d'outils</a>
+        </header>
+
+        <nav class="toolbar">
+            <button id="slider-previous"><i class="fas fa-chevrons-left"></i></button>
+            <button id="slider-toggle"><i class="fas fa-play"></i></button>
+            <button id="slider-next"><i class="fas fa-chevrons-right"></i></button>
+            <button id="slider-random"><i class="fas fa-random"></i></button>
+        </nav>
+
+        <main>
+            <figure class="slider rotate" id="slider"></figure>
+            <figcaption id="slider-figcaption" class="rotate"></figcaption>
+        </main>
+
+
+        <script src="js/slider.js"></script>
+    </body>
+</html>
